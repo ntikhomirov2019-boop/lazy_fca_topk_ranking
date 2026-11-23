@@ -1,10 +1,21 @@
-lazy_fca_topk_ranking/
-├── .gitignore
-├── README.md
-├── requirements.txt
-├── src/
-│   └── __init__.py
+├── data/
+│   ├── raw/
+│   └── processed/
 ├── notebooks/
-│   └── .gitkeep
-└── data/
-    └── .gitkeep
+│   ├── 01_eda.ipynb
+│   ├── 02_baselines.ipynb
+│   └── 03_topk_lazy_fca.ipynb
+├── src/
+│   ├── data.py
+│   ├── descriptions.py
+│   ├── pattern_structure.py
+│   ├── candidate_generation.py
+│   ├── ranking_metrics.py
+│   ├── topk_selection.py
+│   ├── baselines.py
+│   └── evaluation.py
+├── reports/
+│   ├── report.pdf
+│   └── presentation.pdf
+├── requirements.txt
+└── README.md
